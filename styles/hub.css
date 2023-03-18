@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, "Geneva", Verdana, sans-serif;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+/* all header related css goes here */
+
+.header {
+    background-color: darkgray;
+}
+
+.headman {
+    
+    font-size: 34px;
+    font-weight: 600;
+    margin: 6px 0px;
+}
+
+.headertop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    padding-inline-start: 0;
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin: 8px 16px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*all content related css goes here*/
+
+/*all footer related css goes here*/
